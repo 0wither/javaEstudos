@@ -3,7 +3,7 @@ import  academy.devdojo.java.classes.obejects.person;
 // crie uma class com seguintes atributos: age,name,com 3 salarios e imprima todos
 // logo apos isso imprima total e media do salario
 
-public class aula02 {
+public class personTest01 {
 	public static void main(String[] args) {
 	person pessoa = new person();
 	

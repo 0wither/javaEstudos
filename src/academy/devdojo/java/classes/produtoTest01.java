@@ -4,7 +4,7 @@ package academy.devdojo.java.classes;
 
 import academy.devdojo.java.classes.obejects.produto;
 
-public class aula01 {
+public class produtoTest01 {
 	public static void main(String[] args) {
 		produto arroz = new produto();
 		produto bolo  = new produto();

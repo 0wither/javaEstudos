@@ -2,7 +2,8 @@ package academy.devdojo.java.induction;
 
 public class aula02 {
 	public static void main(String[] args) {
-		byte dia = 0;
+		byte dia = 2
+				;
 		char sexo = 'M';
 		switch(dia) {
 			case 1:

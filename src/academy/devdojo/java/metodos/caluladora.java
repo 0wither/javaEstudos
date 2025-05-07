@@ -1,6 +1,6 @@
 package academy.devdojo.java.metodos;
 
-public class caluladoraClass {
+public class caluladora {
 	
 	
 	public void soma(float num,float num2) {

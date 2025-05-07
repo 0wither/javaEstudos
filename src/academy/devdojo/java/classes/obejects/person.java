@@ -2,11 +2,27 @@ package academy.devdojo.java.classes.obejects;
 
 public class person {
 	
-	private int age;
 	private String name;
+	private int age;
+	
 	
 	public double[] salarios;
 	
+	
+	
+	
+	//set = seta o nome, altera a variavel dentro do  objeto
+	public void setname(String inputName) {
+		this.name = inputName;
+}
+			
+	//pega o nome 
+	public String getName() {
+		return this.name;
+}
+	
+			
+			
 	
 	public void setAge(int Age) {
 		if (Age != 0) { 
@@ -15,37 +31,17 @@ public class person {
 		}
 		System.out.println("error");
 	}
-
+	//pega o nome 
 	public int getAge() {
 		return this.age;
 	}
-	
-	
-	public void setname(String inputName) {
-		name = inputName;
-		
-	}
-	
-	
-	public String getName() {
-		return this.name;
-		
-	}
-	
-	
-	
-	
-	
-	
-	
-	
 	
 	
 	
 	
 	
 	public void imprima() {
-	//  NOT USE
+//               NOT USE
 //		System.out.println(getName());
 //		System.out.println(getAge());
 
